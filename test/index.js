@@ -47,7 +47,7 @@ describe('log', function () {
     spy.should.have.been.calledWith(defaultParams, expectedMsg);
   });
 
-  it('should return an empty object if options are not passed', function () {
+  it('should return an empty object for options in the log message if options are not passed', function () {
      var expectedMsg = util.format('db.%s.%s(%s, %s)',
                                   defaultParams.coll,
                                   defaultParams.method,
