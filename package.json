@@ -1,0 +1,24 @@
+{
+  "name": "logger-facade-mongoose",
+  "version": "0.0.1",
+  "description": "A helper to register mongoose his debug logging into logger facade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micro-toolkit/logger-facade-mongoose.git"
+  },
+  "keywords": [
+    "logging",
+    "debug",
+    "mongoose"
+  ],
+  "author": "Nick van Eijk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micro-toolkit/logger-facade-mongoose/issues"
+  },
+  "homepage": "https://github.com/micro-toolkit/logger-facade-mongoose#readme"
+}
