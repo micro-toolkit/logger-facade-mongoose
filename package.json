@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/micro-toolkit/logger-facade-mongoose#readme",
   "dependencies": {
-    "logger-facade-nodejs": "^1.0.0",
-    "mongoose": "^4.4.12"
+    "logger-facade-nodejs": "^1.0.0"
   }
 }
