@@ -4,7 +4,7 @@
   "description": "A helper to register mongoose his debug logging into logger facade",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test _mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,11 @@
   "homepage": "https://github.com/micro-toolkit/logger-facade-mongoose#readme",
   "dependencies": {
     "logger-facade-nodejs": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
   }
 }
