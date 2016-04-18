@@ -1,7 +1,7 @@
 {
   "name": "logger-facade-mongoose",
   "version": "0.0.1",
-  "description": "A helper to register mongoose his debug logging into logger facade",
+  "description": "A helper to use mongoose logging with logger facade",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test _mocha"
@@ -11,7 +11,11 @@
     "url": "git+https://github.com/micro-toolkit/logger-facade-mongoose.git"
   },
   "keywords": [
+    "logger-facade",
+    "logger",
+    "facade",
     "logging",
+    "log",
     "debug",
     "mongoose"
   ],
