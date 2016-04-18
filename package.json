@@ -16,7 +16,7 @@
     "mongoose"
   ],
   "author": "Nick van Eijk",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/micro-toolkit/logger-facade-mongoose/issues"
   },
